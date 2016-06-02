@@ -1,0 +1,64 @@
+@import url(../common/reset.css);
+@import url(../fonts.css);
+@import url(../common/common.css);
+@import url(../common/mediaQueries.css);
+
+.startPage{
+	background-image: url(../../images/startPage-background.png);
+	background-position: center;
+	height: 882px;	
+	box-sizing: border-box;
+	padding-top: 178px;
+}
+.startPage__header{
+	font-family: 'LatoLight', sans-serif;		
+	font-size: 60px;
+	color: white;
+	text-align: center;
+	letter-spacing: -1.2px;
+	
+}
+.startPage__text{
+	font-family: 'LatoItalic', sans-serif;	
+	font-size: 17px;
+	color: white;
+	text-align: center;
+	margin-top: 13px;
+	line-height: 31px;
+	letter-spacing: -0.2px;
+}
+.startPage__startButton{
+	background-color: #7ACCC8;
+	border: solid 0px #FFFFFF;
+	border-radius: 4px;
+	width: 280px;
+	height: 70px;
+	font-size: 22px;
+	color: white;	
+	font-family: 'LatoBold', sans-serif;  
+	margin: 263px auto 0 auto;
+	display: block;	
+	letter-spacing: 1px;
+}
+.startPage__playButton{
+    border-radius:50%;	
+    border: solid 10px #FFFFFF;
+    width: 100px;
+    height: 100px;
+    background-color:transparent;
+	position: relative; 
+	margin: 70px auto 0 auto;
+	display: block;	
+}
+.startPage__playButton:before {
+	content: "";
+	position: absolute;
+	top: 36%;
+	left: 42%;
+	width: 0;
+	height: 0;
+	border-top: 13px solid transparent;
+	border-left: 16px solid #FFFFFF;
+	border-bottom: 13px solid transparent;
+	border-radius: 3px;
+}
